@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+a {
+  margin-right: 15px;
+  color: #38bdf8;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 8px;
+}
