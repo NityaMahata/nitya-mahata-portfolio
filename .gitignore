@@ -16,7 +16,7 @@ build/
 .temp/
 .next/
 .nuxt/
-public/
+
 
 # Editor directories and files
 .vscode/*
