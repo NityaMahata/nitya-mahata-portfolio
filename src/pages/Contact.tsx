@@ -46,8 +46,8 @@ const Contact = () => {
 
         <div className="mt-12">
           <a
-            href="/public/Nitya_Mahata_Resume.pdf"
-            className="inline-block bg-teal-500 hover:bg-teal-600 text-black px-6 py-3 rounded-lg font-semibold transition"
+            href="/Nitya_Mahata_Resume.pdf"
+            download="Nitya_Mahata_Resume.pdf"
             target="_blank"
           >
             Download Resume
