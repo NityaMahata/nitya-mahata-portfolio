@@ -21,12 +21,19 @@ const Home = () => {
 
           <div className="flex gap-4">
              <a
-              href="/Nitya_Mahata_Resume.pdf"
-              download="Nitya_Mahata_Resume.pdf"
-               target="_blank"
-            >
-              Download Resume
-            </a>
+                href="/Nitya_Mahata_Resume.pdf"
+                download
+                className="
+                  inline-flex items-center justify-center
+                  px-6 py-3
+                  rounded-lg
+                  bg-teal-500 text-black font-semibold
+                  hover:bg-teal-400
+                  transition-all duration-300
+                  shadow-lg shadow-teal-500/20
+                ">
+                Download Resume
+              </a>
 
             <a
               href="/projects"
